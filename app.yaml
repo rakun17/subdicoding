@@ -1,0 +1,7 @@
+runtime: python39  # Ini bisa diganti dengan runtime apa pun
+handlers:
+- url: /static
+  static_dir: static
+- url: /.*
+  static_files: index.html
+  upload: index.html
